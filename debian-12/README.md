@@ -168,10 +168,10 @@ firewall-cmd --reload
 
 **O que isso faz:**
 
-   firewall-cmd: Gerencia regras de firewall \
-   --permanent: A regra persiste após reinicialização \
-   --add-port80/tcp: Permite tráfego na porta 80 (HTTP) \
-   --reload: Aplica as mudanças sem reiniciar o firewall
+   **firewall-cmd**: Gerencia regras de firewall \
+   **--permanent**: A regra persiste após reinicialização \
+   **--add-port80/tcp**: Permite tráfego na porta 80 (HTTP) \
+   **--reload**: Aplica as mudanças sem reiniciar o firewall
    
 ### Verificação da instalação
 **Teste o Apache:**
